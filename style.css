@@ -16,6 +16,12 @@ body{
     background: #2f363e;
 
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
 
 .box{
     position: relative;
@@ -141,4 +147,9 @@ h2{
 
 ::-webkit-scrollbar-thumb{
     background: #fff;
+}
+
+.hotoguide{
+    color: #fff;
+    /* margin: 20px; */
 }
